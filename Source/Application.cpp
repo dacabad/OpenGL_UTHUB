@@ -2,5 +2,5 @@
 
 int main()
 {
-	std::cout << "Program started" << std::endl;	
+	std::cout << "Program has started" << std::endl;	
 }
