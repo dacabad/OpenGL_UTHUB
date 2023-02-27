@@ -162,6 +162,9 @@
     <ClCompile Include="Source\Application.cpp" />
     <ClCompile Include="ThirdParty\glad\src\glad.c" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Shapes.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
