@@ -16,6 +16,9 @@
     <Filter Include="ThirdParty">
       <UniqueIdentifier>{d4aec374-4324-4306-be97-d0ea300bc1f6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{65a5ffb1-e45b-4b71-8d08-71bb96581c13}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Application.cpp">
@@ -24,10 +27,24 @@
     <ClCompile Include="ThirdParty\glad\src\glad.c">
       <Filter>ThirdParty</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Shapes.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Shader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\fragmentShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\vertexShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>
